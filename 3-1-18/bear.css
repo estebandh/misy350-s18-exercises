@@ -1,32 +1,78 @@
-body{
+body {
   font-family: Georgia;
   background-color: #FBF9ED;
 }
-h1{
-  color:#F49C6A;
+
+h1 {
+  color: #F49C6A;
   font-size: 5em;
-  padding-top: 50px;
   text-align: center;
+  border: 3px solid #F49C6A;
 }
-h2{
+
+h2 {
   font-family: "Courier New";
   text-transform: uppercase;
 }
-h3{
+
+h3 {
   font-family: Helvetica;
   font-weight: 200;
 }
-nav a{
+
+nav a {
   color: #F4C7A8;
 }
-nav ul a{
-  color:#B57493;
+
+.navigation ul {
+  text-align: center;
+}
+
+.navigation a {
+  text-decoration: none;
+}
+
+.navigation li {
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 20px;
+  display: inline-block;
+}
+
+nav ul a {
+  color: #B57493;
   font-size: 1.5em;
 }
-#habitat{
+
+#habitat {
   color: white;
   background-image: url(https://s3.amazonaws.com/misy350/bg-tree.jpg);
 }
-#media img{
+
+#media img {
   border-radius: 100%
+}
+
+.nav-buttons {
+  border: 1px solid LightGrey;
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.nav-buttons a {
+  background: #F49C6A;
+  border: 1px solid #F49C6A;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.nav-buttons a:hover {
+  background: white;
+  color: #F49C6A;
 }
